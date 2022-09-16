@@ -1,0 +1,2450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1a913106-0be0-4476-b0ce-2aa855072614}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{da904ee8-7f59-4a6c-b3ff-b91b6fb6d0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{df7aa532-3fdf-46a0-b3fc-8f5922e8d9e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ball.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\center.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\corner.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\gamecurs.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gameDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ntutcsie.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\mygame.cpp" />
+    <ClCompile Include="Source\audio.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAfx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goomba.cpp" />
+    <ClCompile Include="Source\Bullet.cpp" />
+    <ClCompile Include="Source\map.cpp" />
+    <ClCompile Include="Source\CEraser.cpp" />
+    <ClCompile Include="Source\elevator.cpp" />
+    <ClCompile Include="Source\Dick.cpp" />
+    <ClCompile Include="Source\dick_bullet.cpp" />
+    <ClCompile Include="Source\Rex.cpp" />
+    <ClCompile Include="Source\bowser.cpp" />
+    <ClCompile Include="Source\bowser_fireball.cpp" />
+    <ClCompile Include="Source\bowser_ironball.cpp" />
+    <ClCompile Include="Source\trap_4_1.cpp" />
+    <ClCompile Include="Source\Sunflower.cpp" />
+    <ClCompile Include="Source\sunflower_seed.cpp" />
+    <ClCompile Include="Source\boomerang.cpp" />
+    <ClCompile Include="Source\Pollen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\mygame.h" />
+    <ClInclude Include="Source\audio.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameDoc.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gamelib.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameView.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainFrm.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StdAfx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goomba.h" />
+    <ClInclude Include="Source\Bullet.h" />
+    <ClInclude Include="Source\map.h" />
+    <ClInclude Include="Source\CEraser.h" />
+    <ClInclude Include="Source\elevator.h" />
+    <ClInclude Include="Source\Dick.h" />
+    <ClInclude Include="Source\dick_bullet.h" />
+    <ClInclude Include="Source\Rex.h" />
+    <ClInclude Include="Source\bowser.h" />
+    <ClInclude Include="Source\bowser_fireball.h" />
+    <ClInclude Include="Source\bowser_ironball.h" />
+    <ClInclude Include="Source\trap_4_1.h" />
+    <ClInclude Include="Source\Sunflower.h" />
+    <ClInclude Include="Source\sunflower_seed.h" />
+    <ClInclude Include="Source\boomerang.h" />
+    <ClInclude Include="Source\Pollen.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RES\background1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\chac.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\source\world1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world1new.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\20200329\RES\world1new_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world1new_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\goomba1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\goomba2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\goomba1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\goomba2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\trap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\trap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\bullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\Pictures\world24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\chac2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\chac2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\source\world2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\source\world2_elevator.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world2_elevator.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\source\world21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\source\world22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\source\world23_结果.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world23_结果.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\dick_standard.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\dick_standard.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\dick_fire1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\dick_fire2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\dick_fire3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\dick_fire4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\dick_fire5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\dick_fire6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\dick_fire7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rdick_fire1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rdick_fire2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rdick_fire3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rdick_fire4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rdick_fire5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rdick_fire6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rdick_fire7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rdick_standard.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\dick_fire1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\dick_fire2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\dick_fire3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\dick_fire4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\dick_fire5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\dick_fire6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\dick_fire7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\dickbullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rdick_fire1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rdick_fire2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rdick_fire3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rdick_fire4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rdick_fire5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rdick_fire6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rdick_fire7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rdick_standard.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rdickbullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\dickbullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rdickbullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rex_hurt.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rex_idle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rex_walking1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rex_walking2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rex_walking3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rex_walking4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rex_walking5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rex_walking6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rex_walking7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\rex_walking8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\source\world24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rex_hurt.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rex_idle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rex_walking1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rex_walking2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rex_walking3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rex_walking4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rex_walking5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rex_walking6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rex_walking7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\rex_walking8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\source\worldboss1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\worldboss1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_move1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_move2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_move3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_move4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\flight_move1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\flight_move2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\flight_move3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\flight_move4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep1_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep1_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep1_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep2_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep2_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep2_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep2_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep3_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep3_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep3_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep3_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep4_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep4_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_creep4_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_move1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_move2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_move3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_move4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\flight_move1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\flight_move2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\flight_move3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\flight_move4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\fire1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\fire2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\fire3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\fire4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep1_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep1_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep1_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep2_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep2_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep2_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep2_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep3_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep3_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep3_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep3_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep4_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep4_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_creep4_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_hurt1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_hurt2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_hurt3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_hurt4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\fire1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\fire2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\fire3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\fire4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_rhurt1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_rhurt2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_rhurt3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_rhurt4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_rmove1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_rmove2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_rmove3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_rmove4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\flight_rmove1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\flight_rmove2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\flight_rmove3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\flight_rmove4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_dead1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_dead2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_dead3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bowser_dead4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_hurt1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_hurt2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_hurt3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_hurt4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_rhurt1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_rhurt2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_rhurt3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_rhurt4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_rmove1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_rmove2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_rmove3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_rmove4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\flight_rmove1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\flight_rmove2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\flight_rmove3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\flight_rmove4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\bitmap14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\mlifebar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_dead1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_dead2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_dead3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bowser_dead4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\bitmap14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mlifebar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Ironball1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Ironball2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Ironball3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Ironball4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Ironball5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Ironball6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Ironball7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Ironball8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Game_Over.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Ironball1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Ironball2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Ironball3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Ironball4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Ironball5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Ironball6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Ironball7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Ironball8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Game_Over.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Game_Over2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Game_Over3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Game_Over4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Game_Over5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\title.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\arrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Game_Over2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Game_Over3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Game_Over4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Game_Over5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\title.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\RES\arrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\arrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\option.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\option.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\source\world4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\trap_3_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\trap_3_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\trap_3_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\trap_3_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\trap_3_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\trap_3_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\world4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\world4_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\world4_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world_4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world4_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world4_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\trap_4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\trap_4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\trap_4_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\trap_4_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\world_boss2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\world_boss2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Idle_24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Intro_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Idle_24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Intro_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\FA_High_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Intro_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_Low_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\FS_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FA_High_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_21a.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_25.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Create_26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FS_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_25.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_27.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Intro_28.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_25.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Create_26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Final_Idle_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_25.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_27.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Intro_28.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Vine_Main_23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Final_Idle_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Main_23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Acorn_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Acorn_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Acorn_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Acorn_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Acorn_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Acorn_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Acorn_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Acorn_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Boomerang_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Boomerang_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Boomerang_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Boomerang_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Boomerang_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Boomerang_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Boomerang_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\sunflower\Boomerang_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Boomerang_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Boomerang_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Boomerang_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Boomerang_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Boomerang_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Boomerang_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Boomerang_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Boomerang_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\FP_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Pollen_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Pollen_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Pollen_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Pollen_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Pollen_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FP_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Pollen_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Pollen_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Pollen_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Pollen_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Pollen_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Vine_Platform_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\sunflower\Death_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Vine_Platform_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\about.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Death_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\about.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\ending.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ending.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

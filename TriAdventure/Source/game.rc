@@ -1,0 +1,1187 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文 (繁體，台灣) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\game.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BALL                BITMAP                  "..\\res\\ball.bmp"
+
+IDB_ERASER1             BITMAP                  "..\\res\\eraser1.bmp"
+
+IDB_BACKGROUND          BITMAP                  "..\\res\\ntutcsie.bmp"
+
+IDB_CORNER              BITMAP                  "..\\res\\corner.bmp"
+
+IDB_0                   BITMAP                  "..\\res\\bmp0.bmp"
+
+IDB_1                   BITMAP                  "..\\res\\bmp1.bmp"
+
+IDB_2                   BITMAP                  "..\\res\\bmp2.bmp"
+
+IDB_3                   BITMAP                  "..\\res\\bmp3.bmp"
+
+IDB_4                   BITMAP                  "..\\res\\bmp4.bmp"
+
+IDB_5                   BITMAP                  "..\\res\\bmp5.bmp"
+
+IDB_6                   BITMAP                  "..\\res\\bmp6.bmp"
+
+IDB_7                   BITMAP                  "..\\res\\bmp7.bmp"
+
+IDB_8                   BITMAP                  "..\\res\\bmp8.bmp"
+
+IDB_9                   BITMAP                  "..\\res\\bmp9.bmp"
+
+IDB_MINUS               BITMAP                  "..\\res\\bmp10.bmp"
+
+IDB_CENTER              BITMAP                  "..\\res\\center.bmp"
+
+IDB_ERASER2             BITMAP                  "..\\res\\eraser2.bmp"
+
+IDB_ERASER3             BITMAP                  "..\\res\\eraser3.bmp"
+
+IDB_CONTINUE            BITMAP                  "..\\res\\continue.bmp"
+
+IDB_HELP                BITMAP                  "..\\res\\help.bmp"
+
+IDB_LOADING             BITMAP                  "..\\res\\loading.bmp"
+
+IDB_CHAC                BITMAP                  "..\\RES\\chac.bmp"
+
+IDB_world_1             BITMAP                  "..\\RES\\world1.bmp"
+
+IDB_world_new_2         BITMAP                  "..\\RES\\world1new_2.bmp"
+
+IDB_trap1               BITMAP                  "..\\RES\\trap1.bmp"
+
+IDB_Bullet              BITMAP                  "..\\RES\\bullet.bmp"
+
+IDB_goomba_1            BITMAP                  "..\\RES\\goomba1.bmp"
+
+IDB_goomba_2            BITMAP                  "..\\RES\\goomba2.bmp"
+
+IDB_chac2               BITMAP                  "..\\RES\\chac2.bmp"
+
+IDB_world_2             BITMAP                  "..\\RES\\world2.bmp"
+
+IDB_elevator            BITMAP                  "..\\RES\\world2_elevator.bmp"
+
+IDB_world2_1            BITMAP                  "..\\RES\\world21.bmp"
+
+IDB_world2_2            BITMAP                  "..\\RES\\world22.bmp"
+
+IDB_world2_3            BITMAP                  "..\\RES\\world23.bmp"
+
+IDB_dick_standard       BITMAP                  "..\\RES\\dick_standard.bmp"
+
+IDB_dickfire1           BITMAP                  "..\\RES\\dick_fire1.bmp"
+
+IDB_dickfire2           BITMAP                  "..\\RES\\dick_fire2.bmp"
+
+IDB_dickfire3           BITMAP                  "..\\RES\\dick_fire3.bmp"
+
+IDB_dickfire4           BITMAP                  "..\\RES\\dick_fire4.bmp"
+
+IDB_dickfire5           BITMAP                  "..\\RES\\dick_fire5.bmp"
+
+IDB_dickfire6           BITMAP                  "..\\RES\\dick_fire6.bmp"
+
+IDB_dickfire7           BITMAP                  "..\\RES\\dick_fire7.bmp"
+
+IDB_rdick_standard      BITMAP                  "..\\RES\\rdick_fire1.bmp"
+
+IDB_rdickfire1          BITMAP                  "..\\RES\\rdick_fire2.bmp"
+
+IDB_rdickfire2          BITMAP                  "..\\RES\\rdick_fire3.bmp"
+
+IDB_rdickfire3          BITMAP                  "..\\RES\\rdick_fire4.bmp"
+
+IDB_rdickfire4          BITMAP                  "..\\RES\\rdick_fire5.bmp"
+
+IDB_rdickfire5          BITMAP                  "..\\RES\\rdick_fire6.bmp"
+
+IDB_rdickfire6          BITMAP                  "..\\RES\\rdick_fire7.bmp"
+
+IDB_rdickfire7          BITMAP                  "..\\RES\\rdick_standard.bmp"
+
+IDB_db                  BITMAP                  "..\\RES\\dickbullet.bmp"
+
+IDB_rdb                 BITMAP                  "..\\RES\\rdickbullet.bmp"
+
+IDB_rex_hurt            BITMAP                  "..\\RES\\rex_hurt.bmp"
+
+IDB_rex_idle            BITMAP                  "..\\RES\\rex_idle.bmp"
+
+IDB_rex_walk1           BITMAP                  "..\\RES\\rex_walking1.bmp"
+
+IDB_rex_walk2           BITMAP                  "..\\RES\\rex_walking2.bmp"
+
+IDB_rex_walk3           BITMAP                  "..\\RES\\rex_walking3.bmp"
+
+IDB_rex_walk4           BITMAP                  "..\\RES\\rex_walking4.bmp"
+
+IDB_rex_walk5           BITMAP                  "..\\RES\\rex_walking5.bmp"
+
+IDB_rex_walk6           BITMAP                  "..\\RES\\rex_walking6.bmp"
+
+IDB_rex_walk7           BITMAP                  "..\\RES\\rex_walking7.bmp"
+
+IDB_rex_walk8           BITMAP                  "..\\RES\\rex_walking8.bmp"
+
+IDB_world2_4            BITMAP                  "..\\RES\\world24.bmp"
+
+IDB_world_boss1         BITMAP                  "..\\RES\\worldboss1.bmp"
+
+IDB_bowser_move1        BITMAP                  "..\\RES\\bowser_move1.bmp"
+
+IDB_bowser_move2        BITMAP                  "..\\RES\\bowser_move2.bmp"
+
+IDB_bowser_move3        BITMAP                  "..\\RES\\bowser_move3.bmp"
+
+IDB_bowser_move4        BITMAP                  "..\\RES\\bowser_move4.bmp"
+
+IDB_flight1             BITMAP                  "..\\RES\\flight_move1.bmp"
+
+IDB_flight2             BITMAP                  "..\\RES\\flight_move2.bmp"
+
+IDB_flight3             BITMAP                  "..\\RES\\flight_move3.bmp"
+
+IDB_flight4             BITMAP                  "..\\RES\\flight_move4.bmp"
+
+IDB_bowser_creep1_1     BITMAP                  "..\\RES\\bowser_creep1_1.bmp"
+
+IDB_bowser_creep1_2     BITMAP                  "..\\RES\\bowser_creep1_2.bmp"
+
+IDB_bowser_creep1_3     BITMAP                  "..\\RES\\bowser_creep1_3.bmp"
+
+IDB_bowser_creep1_4     BITMAP                  "..\\RES\\bowser_creep1_4.bmp"
+
+IDB_bowser_creep2_1     BITMAP                  "..\\RES\\bowser_creep2_1.bmp"
+
+IDB_bowser_creep2_2     BITMAP                  "..\\RES\\bowser_creep2_2.bmp"
+
+IDB_bowser_creep2_3     BITMAP                  "..\\RES\\bowser_creep2_3.bmp"
+
+IDB_bowser_creep2_4     BITMAP                  "..\\RES\\bowser_creep2_4.bmp"
+
+IDB_bowser_creep3_1     BITMAP                  "..\\RES\\bowser_creep3_1.bmp"
+
+IDB_bowser_creep3_2     BITMAP                  "..\\RES\\bowser_creep3_2.bmp"
+
+IDB_bowser_creep3_3     BITMAP                  "..\\RES\\bowser_creep3_3.bmp"
+
+IDB_bowser_creep3_4     BITMAP                  "..\\RES\\bowser_creep3_4.bmp"
+
+IDB_bowser_creep4_1     BITMAP                  "..\\RES\\bowser_creep4_1.bmp"
+
+IDB_bowser_creep4_2     BITMAP                  "..\\RES\\bowser_creep4_2.bmp"
+
+IDB_bowser_creep4_3     BITMAP                  "..\\RES\\bowser_creep4_3.bmp"
+
+IDB_bowser_creep4_4     BITMAP                  "..\\RES\\bowser_creep4_4.bmp"
+
+IDB_fireball1           BITMAP                  "..\\RES\\fire1.bmp"
+
+IDB_fireball2           BITMAP                  "..\\RES\\fire2.bmp"
+
+IDB_fireball3           BITMAP                  "..\\RES\\fire3.bmp"
+
+IDB_fireball4           BITMAP                  "..\\RES\\fire4.bmp"
+
+IDB_bowser_hurt1        BITMAP                  "..\\RES\\bowser_hurt1.bmp"
+
+IDB_bowser_hurt2        BITMAP                  "..\\RES\\bowser_hurt2.bmp"
+
+IDB_bowser_hurt3        BITMAP                  "..\\RES\\bowser_hurt3.bmp"
+
+IDB_bowser_hurt4        BITMAP                  "..\\RES\\bowser_hurt4.bmp"
+
+IDB_bowser_hurtr1       BITMAP                  "..\\RES\\bowser_rhurt1.bmp"
+
+IDB_bowser_hurtr2       BITMAP                  "..\\RES\\bowser_rhurt2.bmp"
+
+IDB_bowser_hurtr3       BITMAP                  "..\\RES\\bowser_rhurt3.bmp"
+
+IDB_bowser_hurtr4       BITMAP                  "..\\RES\\bowser_rhurt4.bmp"
+
+IDB_bowser_mover1       BITMAP                  "..\\RES\\bowser_rmove1.bmp"
+
+IDB_bowser_mover2       BITMAP                  "..\\RES\\bowser_rmove2.bmp"
+
+IDB_bowser_mover3       BITMAP                  "..\\RES\\bowser_rmove3.bmp"
+
+IDB_bowser_mover4       BITMAP                  "..\\RES\\bowser_rmove4.bmp"
+
+IDB_flight_mover1       BITMAP                  "..\\RES\\flight_rmove1.bmp"
+
+IDB_flight_mover2       BITMAP                  "..\\RES\\flight_rmove2.bmp"
+
+IDB_flight_mover3       BITMAP                  "..\\RES\\flight_rmove3.bmp"
+
+IDB_flight_mover4       BITMAP                  "..\\RES\\flight_rmove4.bmp"
+
+IDB_bowser_dead1        BITMAP                  "..\\RES\\bowser_dead1.bmp"
+
+IDB_bowser_dead_2       BITMAP                  "..\\RES\\bowser_dead2.bmp"
+
+IDB_bowser_dead3        BITMAP                  "..\\RES\\bowser_dead3.bmp"
+
+IDB_bowser_dead4        BITMAP                  "..\\RES\\bowser_dead4.bmp"
+
+IDB_lifebar             BITMAP                  "..\\RES\\bitmap14.bmp"
+
+IDB_iifebar_m           BITMAP                  "..\\RES\\mlifebar.bmp"
+
+IDB_ironball1           BITMAP                  "..\\RES\\Ironball1.bmp"
+
+IDB_ironball2           BITMAP                  "..\\RES\\Ironball2.bmp"
+
+IDB_ironball3           BITMAP                  "..\\RES\\Ironball3.bmp"
+
+IDB_ironball4           BITMAP                  "..\\RES\\Ironball4.bmp"
+
+IDB_ironball5           BITMAP                  "..\\RES\\Ironball5.bmp"
+
+IDB_ironball6           BITMAP                  "..\\RES\\Ironball6.bmp"
+
+IDB_ironball7           BITMAP                  "..\\RES\\Ironball7.bmp"
+
+IDB_ironball8           BITMAP                  "..\\RES\\Ironball8.bmp"
+
+IDB_game_over1          BITMAP                  "..\\RES\\Game_Over.bmp"
+
+IDB_game_over2          BITMAP                  "..\\RES\\Game_Over2.bmp"
+
+IDB_game_over3          BITMAP                  "..\\RES\\Game_Over3.bmp"
+
+IDB_game_over4          BITMAP                  "..\\RES\\Game_Over4.bmp"
+
+IDB_game_over5          BITMAP                  "..\\RES\\Game_Over5.bmp"
+
+IDB_title               BITMAP                  "..\\RES\\title.bmp"
+
+IDB_arrow               BITMAP                  "..\\RES\\arrow.bmp"
+
+IDB_option              BITMAP                  "..\\RES\\option.bmp"
+
+IDB_world3_1            BITMAP                  "..\\RES\\world4_1.bmp"
+
+IDB_trap_3_1            BITMAP                  "..\\RES\\trap_3_1.bmp"
+
+IDB_trap_3_2            BITMAP                  "..\\RES\\trap_3_2.bmp"
+
+IDB_trap_3_3            BITMAP                  "..\\RES\\trap_3_3.bmp"
+
+IDB_world_41            BITMAP                  "..\\RES\\world_4_1.bmp"
+
+IDB_world42             BITMAP                  "..\\RES\\world4_2.bmp"
+
+IDB_world43             BITMAP                  "..\\RES\\world4_3.bmp"
+
+IDB_trap_4_1            BITMAP                  "..\\RES\\trap_4_1.bmp"
+
+IDB_trap_4_2            BITMAP                  "..\\RES\\trap_4_2.bmp"
+
+IDB_world_boss2         BITMAP                  "..\\RES\\world_boss2.bmp"
+
+Idle0                   BITMAP                  "..\\RES\\Idle_01.bmp"
+
+Idle01                  BITMAP                  "..\\RES\\Idle_02.bmp"
+
+Idle02                  BITMAP                  "..\\RES\\Idle_03.bmp"
+
+Idle03                  BITMAP                  "..\\RES\\Idle_04.bmp"
+
+Idle04                  BITMAP                  "..\\RES\\Idle_05.bmp"
+
+Idle05                  BITMAP                  "..\\RES\\Idle_06.bmp"
+
+Idle06                  BITMAP                  "..\\RES\\Idle_07.bmp"
+
+Idle07                  BITMAP                  "..\\RES\\Idle_08.bmp"
+
+Idle08                  BITMAP                  "..\\RES\\Idle_09.bmp"
+
+Idle09                  BITMAP                  "..\\RES\\Idle_10.bmp"
+
+Idle10                  BITMAP                  "..\\RES\\Idle_11.bmp"
+
+Idle11                  BITMAP                  "..\\RES\\Idle_12.bmp"
+
+Idle12                  BITMAP                  "..\\RES\\Idle_13.bmp"
+
+Idle13                  BITMAP                  "..\\RES\\Idle_14.bmp"
+
+Idle14                  BITMAP                  "..\\RES\\Idle_15.bmp"
+
+Idle15                  BITMAP                  "..\\RES\\Idle_16.bmp"
+
+Idle16                  BITMAP                  "..\\RES\\Idle_17.bmp"
+
+Idle17                  BITMAP                  "..\\RES\\Idle_18.bmp"
+
+Idle18                  BITMAP                  "..\\RES\\Idle_19.bmp"
+
+Idle19                  BITMAP                  "..\\RES\\Idle_20.bmp"
+
+Idle20                  BITMAP                  "..\\RES\\Idle_21.bmp"
+
+Idle21                  BITMAP                  "..\\RES\\Idle_22.bmp"
+
+Idle22                  BITMAP                  "..\\RES\\Idle_23.bmp"
+
+Idle23                  BITMAP                  "..\\RES\\Idle_24.bmp"
+
+Intro1                  BITMAP                  "..\\RES\\Intro_01.bmp"
+
+Intro2                  BITMAP                  "..\\RES\\Intro_02.bmp"
+
+Intro3                  BITMAP                  "..\\RES\\Intro_03.bmp"
+
+Intro4                  BITMAP                  "..\\RES\\Intro_04.bmp"
+
+Intro5                  BITMAP                  "..\\RES\\Intro_05.bmp"
+
+Intro6                  BITMAP                  "..\\RES\\Intro_06.bmp"
+
+Intro7                  BITMAP                  "..\\RES\\Intro_07.bmp"
+
+Intro8                  BITMAP                  "..\\RES\\Intro_08.bmp"
+
+Intro9                  BITMAP                  "..\\RES\\Intro_09.bmp"
+
+Intro10                 BITMAP                  "..\\RES\\Intro_10.bmp"
+
+Intro11                 BITMAP                  "..\\RES\\Intro_11.bmp"
+
+Intro12                 BITMAP                  "..\\RES\\Intro_12.bmp"
+
+Intro13                 BITMAP                  "..\\RES\\Intro_13.bmp"
+
+Intro14                 BITMAP                  "..\\RES\\Intro_14.bmp"
+
+Intro15                 BITMAP                  "..\\RES\\Intro_15.bmp"
+
+Intro16                 BITMAP                  "..\\RES\\Intro_16.bmp"
+
+Intro17                 BITMAP                  "..\\RES\\Intro_17.bmp"
+
+Intro18                 BITMAP                  "..\\RES\\Intro_18.bmp"
+
+Intro19                 BITMAP                  "..\\RES\\Intro_19.bmp"
+
+Intro20                 BITMAP                  "..\\RES\\Intro_20.bmp"
+
+FA_low01                BITMAP                  "..\\RES\\FA_Low_01.bmp"
+
+FA_low02                BITMAP                  "..\\RES\\FA_Low_02.bmp"
+
+FA_low03                BITMAP                  "..\\RES\\FA_Low_03.bmp"
+
+FA_low04                BITMAP                  "..\\RES\\FA_Low_04.bmp"
+
+FA_low05                BITMAP                  "..\\RES\\FA_Low_05.bmp"
+
+FA_low06                BITMAP                  "..\\RES\\FA_Low_06.bmp"
+
+FA_low07                BITMAP                  "..\\RES\\FA_Low_07.bmp"
+
+FA_low08                BITMAP                  "..\\RES\\FA_Low_08.bmp"
+
+FA_low09                BITMAP                  "..\\RES\\FA_Low_09.bmp"
+
+FA_low10                BITMAP                  "..\\RES\\FA_Low_10.bmp"
+
+FA_low11                BITMAP                  "..\\RES\\FA_Low_11.bmp"
+
+FA_low12                BITMAP                  "..\\RES\\FA_Low_12.bmp"
+
+FA_low13                BITMAP                  "..\\RES\\FA_Low_13.bmp"
+
+FA_low14                BITMAP                  "..\\RES\\FA_Low_14.bmp"
+
+FA_low15                BITMAP                  "..\\RES\\FA_Low_15.bmp"
+
+FA_low16                BITMAP                  "..\\RES\\FA_Low_16.bmp"
+
+FA_low17                BITMAP                  "..\\RES\\FA_Low_17.bmp"
+
+FA_low18                BITMAP                  "..\\RES\\FA_Low_18.bmp"
+
+FA_low19                BITMAP                  "..\\RES\\FA_Low_19.bmp"
+
+FA_low20                BITMAP                  "..\\RES\\FA_Low_20.bmp"
+
+FA_high01               BITMAP                  "..\\RES\\FA_High_01.bmp"
+
+FA_high02               BITMAP                  "..\\RES\\FA_High_02.bmp"
+
+FA_high03               BITMAP                  "..\\RES\\FA_High_03.bmp"
+
+FA_high04               BITMAP                  "..\\RES\\FA_High_04.bmp"
+
+FA_high05               BITMAP                  "..\\RES\\FA_High_05.bmp"
+
+FA_high06               BITMAP                  "..\\RES\\FA_High_06.bmp"
+
+FA_high07               BITMAP                  "..\\RES\\FA_High_07.bmp"
+
+FA_high08               BITMAP                  "..\\RES\\FA_High_08.bmp"
+
+FA_high09               BITMAP                  "..\\RES\\FA_High_09.bmp"
+
+FA_high10               BITMAP                  "..\\RES\\FA_High_10.bmp"
+
+FA_high11               BITMAP                  "..\\RES\\FA_High_11.bmp"
+
+FA_high12               BITMAP                  "..\\RES\\FA_High_12.bmp"
+
+FA_high13               BITMAP                  "..\\RES\\FA_High_13.bmp"
+
+FA_high14               BITMAP                  "..\\RES\\FA_High_14.bmp"
+
+FA_high15               BITMAP                  "..\\RES\\FA_High_15.bmp"
+
+FA_high16               BITMAP                  "..\\RES\\FA_High_16.bmp"
+
+FA_high17               BITMAP                  "..\\RES\\FA_High_17.bmp"
+
+FA_high18               BITMAP                  "..\\RES\\FA_High_18.bmp"
+
+FA_high19               BITMAP                  "..\\RES\\FA_High_19.bmp"
+
+FS_01                   BITMAP                  "..\\RES\\FS_01.bmp"
+
+FS_02                   BITMAP                  "..\\RES\\FS_02.bmp"
+
+FS_03                   BITMAP                  "..\\RES\\FS_03.bmp"
+
+FS_04                   BITMAP                  "..\\RES\\FS_04.bmp"
+
+FS_05                   BITMAP                  "..\\RES\\FS_05.bmp"
+
+FS_06                   BITMAP                  "..\\RES\\FS_06.bmp"
+
+FS_07                   BITMAP                  "..\\RES\\FS_07.bmp"
+
+FS_08                   BITMAP                  "..\\RES\\FS_08.bmp"
+
+FS_09                   BITMAP                  "..\\RES\\FS_09.bmp"
+
+FS_10                   BITMAP                  "..\\RES\\FS_10.bmp"
+
+FS_11                   BITMAP                  "..\\RES\\FS_11.bmp"
+
+FS_12                   BITMAP                  "..\\RES\\FS_12.bmp"
+
+FS_13                   BITMAP                  "..\\RES\\FS_13.bmp"
+
+FS_14                   BITMAP                  "..\\RES\\FS_14.bmp"
+
+FS_15                   BITMAP                  "..\\RES\\FS_15.bmp"
+
+FS_16                   BITMAP                  "..\\RES\\FS_16.bmp"
+
+FS_17                   BITMAP                  "..\\RES\\FS_17.bmp"
+
+FS_18                   BITMAP                  "..\\RES\\FS_18.bmp"
+
+FS_19                   BITMAP                  "..\\RES\\FS_19.bmp"
+
+FS_20                   BITMAP                  "..\\RES\\FS_20.bmp"
+
+FS_21                   BITMAP                  "..\\RES\\FS_21.bmp"
+
+FS_22                   BITMAP                  "..\\RES\\FS_22.bmp"
+
+Create_01               BITMAP                  "..\\RES\\Create_01.bmp"
+
+Create_02               BITMAP                  "..\\RES\\Create_02.bmp"
+
+Create_03               BITMAP                  "..\\RES\\Create_03.bmp"
+
+Create_04               BITMAP                  "..\\RES\\Create_04.bmp"
+
+Create_05               BITMAP                  "..\\RES\\Create_05.bmp"
+
+Create_06               BITMAP                  "..\\RES\\Create_06.bmp"
+
+Create_07               BITMAP                  "..\\RES\\Create_07.bmp"
+
+Create_08               BITMAP                  "..\\RES\\Create_08.bmp"
+
+Create_09               BITMAP                  "..\\RES\\Create_09.bmp"
+
+Create_10               BITMAP                  "..\\RES\\Create_10.bmp"
+
+Create_11               BITMAP                  "..\\RES\\Create_11.bmp"
+
+Create_12               BITMAP                  "..\\RES\\Create_12.bmp"
+
+Create_13               BITMAP                  "..\\RES\\Create_13.bmp"
+
+Create_14               BITMAP                  "..\\RES\\Create_14.bmp"
+
+Create_15               BITMAP                  "..\\RES\\Create_15.bmp"
+
+Create_16               BITMAP                  "..\\RES\\Create_16.bmp"
+
+Create_17               BITMAP                  "..\\RES\\Create_17.bmp"
+
+Create_18               BITMAP                  "..\\RES\\Create_18.bmp"
+
+Create_19               BITMAP                  "..\\RES\\Create_19.bmp"
+
+Create_20               BITMAP                  "..\\RES\\Create_20.bmp"
+
+Create_21               BITMAP                  "..\\RES\\Create_21.bmp"
+
+Create_22               BITMAP                  "..\\RES\\Create_22.bmp"
+
+Create_23               BITMAP                  "..\\RES\\Create_23.bmp"
+
+Create_24               BITMAP                  "..\\RES\\Create_24.bmp"
+
+Create_25               BITMAP                  "..\\RES\\Create_25.bmp"
+
+Create_26               BITMAP                  "..\\RES\\Create_26.bmp"
+
+FIntro_01               BITMAP                  "..\\RES\\Final_Intro_01.bmp"
+
+FIntro_02               BITMAP                  "..\\RES\\Final_Intro_02.bmp"
+
+FIntro_03               BITMAP                  "..\\RES\\Final_Intro_03.bmp"
+
+FIntro_04               BITMAP                  "..\\RES\\Final_Intro_04.bmp"
+
+FIntro_05               BITMAP                  "..\\RES\\Final_Intro_05.bmp"
+
+FIntro_06               BITMAP                  "..\\RES\\Final_Intro_06.bmp"
+
+FIntro_07               BITMAP                  "..\\RES\\Final_Intro_07.bmp"
+
+FIntro_08               BITMAP                  "..\\RES\\Final_Intro_08.bmp"
+
+FIntro_09               BITMAP                  "..\\RES\\Final_Intro_09.bmp"
+
+FIntro_10               BITMAP                  "..\\RES\\Final_Intro_10.bmp"
+
+FIntro_11               BITMAP                  "..\\RES\\Final_Intro_11.bmp"
+
+FIntro_12               BITMAP                  "..\\RES\\Final_Intro_12.bmp"
+
+FIntro_13               BITMAP                  "..\\RES\\Final_Intro_13.bmp"
+
+FIntro_14               BITMAP                  "..\\RES\\Final_Intro_14.bmp"
+
+FIntro_15               BITMAP                  "..\\RES\\Final_Intro_15.bmp"
+
+FIntro_16               BITMAP                  "..\\RES\\Final_Intro_16.bmp"
+
+FIntro_17               BITMAP                  "..\\RES\\Final_Intro_17.bmp"
+
+FIntro_18               BITMAP                  "..\\RES\\Final_Intro_18.bmp"
+
+FIntro_19               BITMAP                  "..\\RES\\Final_Intro_19.bmp"
+
+FIntro_20               BITMAP                  "..\\RES\\Final_Intro_20.bmp"
+
+FIntro_21               BITMAP                  "..\\RES\\Final_Intro_21.bmp"
+
+FIntro_22               BITMAP                  "..\\RES\\Final_Intro_22.bmp"
+
+FIntro_23               BITMAP                  "..\\RES\\Final_Intro_23.bmp"
+
+FIntro_24               BITMAP                  "..\\RES\\Final_Intro_24.bmp"
+
+FIntro_25               BITMAP                  "..\\RES\\Final_Intro_25.bmp"
+
+FIntro_26               BITMAP                  "..\\RES\\Final_Intro_26.bmp"
+
+FIntro_27               BITMAP                  "..\\RES\\Final_Intro_27.bmp"
+
+FIntro_28               BITMAP                  "..\\RES\\Final_Intro_28.bmp"
+
+FIdle_01                BITMAP                  "..\\RES\\Final_Idle_01.bmp"
+
+FIdle_02                BITMAP                  "..\\RES\\Final_Idle_02.bmp"
+
+FIdle_03                BITMAP                  "..\\RES\\Final_Idle_03.bmp"
+
+FIdle_04                BITMAP                  "..\\RES\\Final_Idle_04.bmp"
+
+FIdle_05                BITMAP                  "..\\RES\\Final_Idle_05.bmp"
+
+FIdle_06                BITMAP                  "..\\RES\\Final_Idle_06.bmp"
+
+FIdle_07                BITMAP                  "..\\RES\\Final_Idle_07.bmp"
+
+FIdle_08                BITMAP                  "..\\RES\\Final_Idle_08.bmp"
+
+FIdle_09                BITMAP                  "..\\RES\\Final_Idle_09.bmp"
+
+FIdle_10                BITMAP                  "..\\RES\\Final_Idle_10.bmp"
+
+FIdle_11                BITMAP                  "..\\RES\\Final_Idle_11.bmp"
+
+FIdle_12                BITMAP                  "..\\RES\\Final_Idle_12.bmp"
+
+FIdle_13                BITMAP                  "..\\RES\\Final_Idle_13.bmp"
+
+FIdle_14                BITMAP                  "..\\RES\\Final_Idle_14.bmp"
+
+FIdle_15                BITMAP                  "..\\RES\\Final_Idle_15.bmp"
+
+FIdle_16                BITMAP                  "..\\RES\\Final_Idle_16.bmp"
+
+FIdle_17                BITMAP                  "..\\RES\\Final_Idle_17.bmp"
+
+FIdle_18                BITMAP                  "..\\RES\\Final_Idle_18.bmp"
+
+FIdle_19                BITMAP                  "..\\RES\\Final_Idle_19.bmp"
+
+vine01                  BITMAP                  "..\\RES\\Vine_Main_23.bmp"
+
+seed01                  BITMAP                  "..\\RES\\Acorn_09.bmp"
+
+seed02                  BITMAP                  "..\\RES\\Acorn_10.bmp"
+
+seed03                  BITMAP                  "..\\RES\\Acorn_11.bmp"
+
+seed04                  BITMAP                  "..\\RES\\Acorn_12.bmp"
+
+boomerang01             BITMAP                  "..\\RES\\Boomerang_01.bmp"
+
+boomerang02             BITMAP                  "..\\RES\\Boomerang_02.bmp"
+
+boomerang03             BITMAP                  "..\\RES\\Boomerang_03.bmp"
+
+boomerang04             BITMAP                  "..\\RES\\Boomerang_04.bmp"
+
+boomerang05             BITMAP                  "..\\RES\\Boomerang_05.bmp"
+
+boomerang06             BITMAP                  "..\\RES\\Boomerang_06.bmp"
+
+boomerang07             BITMAP                  "..\\RES\\Boomerang_07.bmp"
+
+boomerang08             BITMAP                  "..\\RES\\Boomerang_08.bmp"
+
+FP_01                   BITMAP                  "..\\RES\\FP_01.bmp"
+
+FP_02                   BITMAP                  "..\\RES\\FP_02.bmp"
+
+FP_03                   BITMAP                  "..\\RES\\FP_03.bmp"
+
+FP_04                   BITMAP                  "..\\RES\\FP_04.bmp"
+
+FP_05                   BITMAP                  "..\\RES\\FP_05.bmp"
+
+FP_06                   BITMAP                  "..\\RES\\FP_06.bmp"
+
+FP_07                   BITMAP                  "..\\RES\\FP_07.bmp"
+
+FP_08                   BITMAP                  "..\\RES\\FP_08.bmp"
+
+FP_09                   BITMAP                  "..\\RES\\FP_09.bmp"
+
+FP_10                   BITMAP                  "..\\RES\\FP_10.bmp"
+
+FP_11                   BITMAP                  "..\\RES\\FP_11.bmp"
+
+FP_12                   BITMAP                  "..\\RES\\FP_12.bmp"
+
+FP_13                   BITMAP                  "..\\RES\\FP_13.bmp"
+
+FP_14                   BITMAP                  "..\\RES\\FP_14.bmp"
+
+FP_15                   BITMAP                  "..\\RES\\FP_15.bmp"
+
+FP_16                   BITMAP                  "..\\RES\\FP_16.bmp"
+
+FP_17                   BITMAP                  "..\\RES\\FP_17.bmp"
+
+FP_18                   BITMAP                  "..\\RES\\FP_18.bmp"
+
+FP_19                   BITMAP                  "..\\RES\\FP_19.bmp"
+
+FP_20                   BITMAP                  "..\\RES\\FP_20.bmp"
+
+FP_21                   BITMAP                  "..\\RES\\FP_21.bmp"
+
+FP_22                   BITMAP                  "..\\RES\\FP_22.bmp"
+
+Pollen_01               BITMAP                  "..\\RES\\Pollen_01.bmp"
+
+Pollen_02               BITMAP                  "..\\RES\\Pollen_02.bmp"
+
+Pollen_03               BITMAP                  "..\\RES\\Pollen_03.bmp"
+
+Pollen_04               BITMAP                  "..\\RES\\Pollen_04.bmp"
+
+Pollen_05               BITMAP                  "..\\RES\\Pollen_05.bmp"
+
+GrownVine_01            BITMAP                  "..\\RES\\Vine_Platform_01.bmp"
+
+GrownVine_02            BITMAP                  "..\\RES\\Vine_Platform_02.bmp"
+
+GrownVine_03            BITMAP                  "..\\RES\\Vine_Platform_03.bmp"
+
+GrownVine_04            BITMAP                  "..\\RES\\Vine_Platform_04.bmp"
+
+GrownVine_05            BITMAP                  "..\\RES\\Vine_Platform_05.bmp"
+
+GrownVine_06            BITMAP                  "..\\RES\\Vine_Platform_06.bmp"
+
+GrownVine_07            BITMAP                  "..\\RES\\Vine_Platform_07.bmp"
+
+GrownVine_08            BITMAP                  "..\\RES\\Vine_Platform_08.bmp"
+
+GrownVine_09            BITMAP                  "..\\RES\\Vine_Platform_09.bmp"
+
+GrownVine_10            BITMAP                  "..\\RES\\Vine_Platform_10.bmp"
+
+GrownVine_11            BITMAP                  "..\\RES\\Vine_Platform_11.bmp"
+
+GrownVine_12            BITMAP                  "..\\RES\\Vine_Platform_12.bmp"
+
+GrownVine_13            BITMAP                  "..\\RES\\Vine_Platform_13.bmp"
+
+GrownVine_14            BITMAP                  "..\\RES\\Vine_Platform_14.bmp"
+
+GrownVine_15            BITMAP                  "..\\RES\\Vine_Platform_15.bmp"
+
+GrownVine_16            BITMAP                  "..\\RES\\Vine_Platform_16.bmp"
+
+GrownVine_17            BITMAP                  "..\\RES\\Vine_Platform_17.bmp"
+
+GrownVine_18            BITMAP                  "..\\RES\\Vine_Platform_18.bmp"
+
+GrownVine_19            BITMAP                  "..\\RES\\Vine_Platform_19.bmp"
+
+GrownVine_20            BITMAP                  "..\\RES\\Vine_Platform_20.bmp"
+
+GrownVine_21            BITMAP                  "..\\RES\\Vine_Platform_21.bmp"
+
+Death_01                BITMAP                  "..\\RES\\Death_01.bmp"
+
+Death_02                BITMAP                  "..\\RES\\Death_02.bmp"
+
+Death_03                BITMAP                  "..\\RES\\Death_03.bmp"
+
+Death_04                BITMAP                  "..\\RES\\Death_04.bmp"
+
+Death_05                BITMAP                  "..\\RES\\Death_05.bmp"
+
+Death_06                BITMAP                  "..\\RES\\Death_06.bmp"
+
+Death_07                BITMAP                  "..\\RES\\Death_07.bmp"
+
+Death_08                BITMAP                  "..\\RES\\Death_08.bmp"
+
+Death_09                BITMAP                  "..\\RES\\Death_09.bmp"
+
+Death_10                BITMAP                  "..\\RES\\Death_10.bmp"
+
+Death_11                BITMAP                  "..\\RES\\Death_11.bmp"
+
+Death_12                BITMAP                  "..\\RES\\Death_12.bmp"
+
+about                   BITMAP                  "..\\RES\\about.bmp"
+
+ending                  BITMAP                  "..\\RES\\ending.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_GAMECURSOR          CURSOR                  "..\\res\\gamecurs.cur"
+
+#endif    // 中文 (繁體，台灣) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英文 (美國) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "..\\res\\Toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "..\\res\\game.ico"
+
+IDR_GAMETYPE            ICON                    "..\\res\\gameDoc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_BUTTON_FULLSCREEN
+    /*BUTTON      ID_BUTTON_PAUSE
+    SEPARATOR
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE*/
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+       // MENUITEM "&New",                        ID_FILE_NEW
+        MENUITEM "Pause\tCtrl+Q",               ID_FILE_PAUSE
+       /* MENUITEM "&Open...",                    ID_FILE_OPEN
+        MENUITEM "&Save",                       ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...",                   ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR*/
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Fullscreen\tCtrl+F",         ID_TOGGLE_FULLSCREEN
+       /* MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR*/
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About game...",              ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "F",            ID_TOGGLE_FULLSCREEN,   VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_FILE_PAUSE,          VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 218, 79
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About game"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Game Framework Version 4.8",IDC_STATIC,39,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002-2020",IDC_STATIC,39,23,119,8
+    DEFPUSHBUTTON   "OK",IDOK,172,7,39,14,WS_GROUP
+    LTEXT           "Liense: GPL",IDC_STATIC,39,35,119,8
+    PUSHBUTTON      "ReadMe",IDC_README,172,24,39,13,WS_GROUP
+    LTEXT           "Author: HanZongYing, CSIE Department, NTUT",IDC_STATIC,39,47,159,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "game MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "game"
+            VALUE "LegalCopyright", "Copyright (C) 1999"
+            VALUE "OriginalFilename", "game.EXE"
+            VALUE "ProductName", "game Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "game\n\nGame\n\n\nGame.Document\nGame Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "game"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUTTON_FULLSCREEN    "Full Screen\nFull Screen"
+    ID_BUTTON_PAUSE         "Pause Game\nPause Game"
+    ID_BUTTON_UNITTEST      "Perform Unit Test"
+END
+
+#endif    // 英文 (美國) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\game.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
